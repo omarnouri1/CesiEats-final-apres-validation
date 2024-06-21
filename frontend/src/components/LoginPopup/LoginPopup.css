@@ -1,0 +1,93 @@
+.login-popup {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.login-popup-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.login-popup-title img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.login-popup-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inputs input,
+.login-popup-inputs select {
+    outline: none;
+    border: 1px solid #C9C9C9;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    color: #808080; /* Set the text color to gray */
+}
+
+.login-popup-inputs select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='none' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z' fill='%23666'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+
+/* Ensure the selected option text color is gray */
+.login-popup-inputs select option {
+    color: #808080;
+}
+
+.login-popup-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #FF4C24;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-popup-condition {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.login-popup-condition input {
+    margin-top: 5px;
+}
+
+.login-popup p span {
+    color: #FF4C24;
+    font-weight: 500;
+    cursor: pointer;
+}

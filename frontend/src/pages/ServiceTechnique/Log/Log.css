@@ -1,0 +1,46 @@
+.logs {
+    padding: 20px;
+  }
+  
+  .logs h3 {
+    margin-bottom: 20px;
+  }
+  
+  .logs button {
+    margin-bottom: 10px; /* Ajuste para separar los botones */
+    margin-right: 10px; /* Ajuste para separar los botones */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logs button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logs-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .logs-table th, .logs-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .logs-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .logs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .logs-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  

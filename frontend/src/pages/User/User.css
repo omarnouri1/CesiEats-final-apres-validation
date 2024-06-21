@@ -1,0 +1,140 @@
+/* Style pour les détails de l'utilisateur */
+#user-details {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#user-details h2 {
+    text-align: center;
+    color: tomato;
+    margin-bottom: 30px;
+}
+
+/* Style pour les informations de l'utilisateur */
+#user-info {
+    font-size: 16px;
+    color: #454545;
+}
+
+#user-info p {
+    margin: 10px 0;
+}
+
+#user-info p strong {
+    color: tomato;
+}
+
+/* Style pour les actions utilisateur */
+#user-actions {
+    margin-top: 20px;
+}
+
+#user-actions button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#user-actions button:hover {
+    background-color: darkred;
+}
+
+/* Style pour la modal */
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animation pour l'apparition de la modal */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Style pour l'overlay de la modal */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+#modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+#modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#modal label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #454545;
+}
+
+#modal input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#modal button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#modal button[type="submit"] {
+    background-color: tomato;
+    color: white;
+}
+
+#modal button[type="submit"]:hover {
+    background-color: darkred;
+}
+
+#modal button[type="button"] {
+    background-color: #ddd;
+    color: #454545;
+}
+
+#modal button[type="button"]:hover {
+    background-color: #bbb;
+}

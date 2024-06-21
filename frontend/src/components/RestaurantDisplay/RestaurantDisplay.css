@@ -1,0 +1,33 @@
+.restaurant-display-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .restaurant-button {
+    width: calc(33.33% - 20px); /* Ancho aproximado para colocar tres botones en una fila */
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+  }
+  
+  .restaurant-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px #00000030;
+  }
+  .restaurant-item-image {
+    max-width: 200px; /* Por ejemplo, establece el ancho máximo */
+    max-height: 150px; /* También puedes establecer la altura máxima si lo deseas */
+    /* Otros estilos si es necesario */
+  }
+  .restaurant-button.selected {
+    background-color: #f0f0f0; /* Cambia el color de fondo cuando está seleccionado */
+    border: 2px solid #007bff; /* Cambia el borde cuando está seleccionado */
+    /* Otros estilos de tu elección */
+  }
+  

@@ -1,0 +1,45 @@
+.api-management-container {
+    display: flex;
+    gap: 20px; /* Espacio entre los contenedores */
+    padding: 20px; /* Espaciado interno */
+}
+
+.api-list-container {
+    flex: 1; /* Ocupa el espacio restante */
+    border: 2px solid black; /* Borde negro */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.api-details-container {
+    flex: 1; /* Ocupa el espacio restante */
+}
+
+/* Estilos para los elementos dentro de la lista de APIs */
+.api-list-container h2 {
+    margin-bottom: 10px;
+}
+
+.api-list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.api-list-container li {
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos en la lista */
+}
+
+.api-list-container li:hover {
+    background-color: #e0e0e0;
+}
+
+.api-list-container li .secret-key {
+    font-size: 0.9em; /* Tamaño de fuente más pequeño para el secret key */
+    color: #666666; /* Color de texto para el secret key */
+}

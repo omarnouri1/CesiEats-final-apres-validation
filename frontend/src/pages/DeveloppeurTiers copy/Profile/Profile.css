@@ -1,0 +1,61 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-img-upload {
+    margin-bottom: 20px;
+}
+
+.profile-product-name {
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    margin: 0 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile-btn {
+    margin: 0 5px;
+}
+.profile-img-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; /* Ajusta el ancho según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    background-color: #f9f9f9;
+}
+
+.profile-img-upload p {
+    font-size: 14px; /* Tamaño del texto más pequeño */
+    margin-bottom: 10px;
+}
+
+.profile-img-upload label {
+    cursor: pointer;
+}
+
+.profile-img-upload img {
+    width: 100px; /* Ajusta el ancho de la imagen */
+    height: 100px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Para que la imagen se ajuste correctamente */
+    border-radius: 50%; /* Para que la imagen sea circular */
+    border: 2px solid #ccc; /* Borde alrededor de la imagen */
+    margin-bottom: 10px;
+}
+
+.profile-img-upload input[type="file"] {
+    display: none; /* Oculta el input de archivo */
+}

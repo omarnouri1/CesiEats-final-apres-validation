@@ -1,0 +1,128 @@
+.profile form{
+   gap: 20px;
+}
+.profile-img-upload img{
+    width: 120px;
+}
+.profile-product-name, .profile-product-description{
+    width: max(40%,280px);
+}
+.profile-product-name input ,.profile-product-description textarea{
+    padding: 10px 10px;
+}
+.profile-category-price{
+    display: flex;
+    gap: 30px;
+}
+.profile-category-price select,.profile-category-price input{
+    max-width: 120px;
+    padding: 10px;
+}
+.parrainer-download {
+    margin: 100px auto;
+    font-size: max(3vw, 20px);
+    text-align: center;
+    font-weight: 500;
+}
+.parrainer-download-platforms{
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,10px);
+    margin-top: 40px;
+}
+.parrainer {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.parrainer-content {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.parrainer-platforms {
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.parrainer-image {
+    margin-right: 100px; /* Espacio entre la imagen y el formulario */
+    width: 1%; /* Reducción al 10% del tamaño original */
+    height: auto; /* Mantiene las proporciones originales de la imagen */
+}
+
+
+.profile-section {
+    margin-bottom: 10px; /* Espacio entre cada sección del formulario */
+    margin-right: 100px;
+}
+
+.button-container {
+    margin-top: 20px; /* Espacio encima del botón */
+}
+
+.profile-btn {
+    width: 100%; /* Ajusta el ancho del botón */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Espacio entre la imagen y el formulario */
+}
+
+.partner-text {
+    margin-top: 50px; /* Espacio entre la imagen y el texto */
+    text-align: start;
+    max-width: 510px; /* Ajusta el ancho del texto */
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Espacio entre la imagen y el formulario */
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    margin-top: -100px;
+    margin-right: 20px; /* Espacio entre la imagen y el formulario */
+}
+
+
+
+.partner-text {
+    margin-top: -150px;
+    max-width: 400px; /* Ajusta el ancho del texto */
+    margin-left: 800px;
+}
+
+.profile-section {
+    margin-bottom: 2px; /* Espacio entre cada sección del formulario */
+}
+
+.button-container {
+    margin-top: 20px; /* Espacio encima del botón */
+}
+
+.profile-btn {
+    width: 100%; /* Ajusta el ancho del botón */
+}

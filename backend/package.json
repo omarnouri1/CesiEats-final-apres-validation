@@ -1,0 +1,36 @@
+{
+  "name": "food-del-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "@sendgrid/mail": "^8.1.3",
+    "archiver": "^7.0.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "chart.js": "^4.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fast-deep-equal": "^3.1.3",
+    "invariant": "^2.2.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.0.3",
+    "qrcode.react": "^3.1.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-toastify": "^10.0.5",
+    "stripe": "^14.17.0",
+    "uuid": "^10.0.0",
+    "validator": "^13.11.0"
+  }
+}

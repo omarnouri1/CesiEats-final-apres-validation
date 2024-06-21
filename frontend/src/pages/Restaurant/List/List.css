@@ -1,0 +1,96 @@
+.list-table-format{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+.list-table-format.title{
+    background-color: #f9f9f9;
+}
+.list-table-format img{
+    width: 50px;
+}
+@media(max-width:600px){
+
+    .list-table-format{
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 15px;
+    }
+    .list-table-format.title{
+        display: none;
+    }
+}
+
+.list-table-format {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .list-table-format.title {
+    font-weight: bold;
+  }
+  
+  .list-table-format img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .list-table-format p {
+    margin: 0 10px;
+  }
+  
+  .list-table-format .cursor {
+    cursor: pointer;
+    color: red;
+  }
+  
+  .list-table-format .edit-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .list-table-format .edit-button:hover {
+    background-color: gray;
+  }
+  
+  .edit-form {
+    margin-top: 20px;
+  }
+  
+  .edit-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form form label {
+    margin: 5px 0;
+  }
+  
+  .edit-form form input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form form button {
+    padding: 5px 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-form form button:hover {
+    background-color: gray;
+  }
+  

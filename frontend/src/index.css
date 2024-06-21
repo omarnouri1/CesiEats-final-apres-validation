@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  width: 80%;
+  margin: auto;
+}
+.app2 {
+  width: 100%;
+  margin: auto;
+}
+.app-content {
+    padding-left: 0%; /* Ajusta este valor para dejar espacio para la barra lateral */
+    padding-top: 20px; /* Agrega un espacio superior para separar del encabezado */
+}
+
+@media (max-width: 900px) {
+    .app-content {
+        padding-left: 0; /* Ajusta el padding para dispositivos más pequeños */
+    }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width:1050px) {
+  .app {
+    width: 90%;
+  }
+}
+
+
+body{
+  min-height: 100vh;
+  background-color: #FCFCFC;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+hr{
+  border: none;
+  height: 1px;
+  background-color: #A9A9A9;
+}
+.app-content{
+  display: flex;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cursor{
+  cursor: pointer;
+}
